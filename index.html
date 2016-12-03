@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+        <title>Game Time</title>
+</head>
+<body>
+
+  <header class = "info">
+    <h1>Play 2048!</h1>
+    <p>Instructions:  Use the arrow keys to slide the tiles.  When 2 equal tiles slide together, they will add their values together and form a new tile.  Keep joining numbers until you reach the 2048 tile</p>
+    <button class ="new-game">New Game</button>
+    <p>Current Score</p>
+    <div class='currentScore'></span></div>
+    <p>High Score</p>
+    <div class='userScore'></div>
+  </header>
+
+  <section class = "game">
+
+    <table class="gameGrid">
+        <tr class="row1">
+          <td id='c1'></td>
+          <td id='c2'></td>
+          <td id='c3'></td>
+          <td id='c4'></td>
+        </tr>
+        <tr class="row2">
+          <td id='c5'></td>
+          <td id='c6'></td>
+          <td id='c7'></td>
+          <td id='c8'></td>
+        </tr>
+        <tr class="row3">
+          <td id='c9'></td>
+          <td id='c10'></td>
+          <td id='c11'></td>
+          <td id='c12'></td>
+        </tr>
+        <tr class="row4">
+          <td id='c13'></td>
+          <td id='c14'></td>
+          <td id='c15'></td>
+          <td id='c16'></td>
+        </tr>
+      </table>
+
+    </section>
+
+  <script src="main.bundle.js"></script>
+</body>
+</html>
